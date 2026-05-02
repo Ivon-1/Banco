@@ -21,3 +21,12 @@ yarn-error.log
 /.nova
 /.vscode
 /.zed
+
+# Additional security measures
+config/database.php
+config/services.php
+config/mail.php
+config/cache.php
+config/auth.php
+.env.*.php
+bootstrap/cache/config.php
